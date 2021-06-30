@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<!-- Created By Dilli Hang Rai on June 15 -2021 -->
+<html lang="en">
+<head>
+        <!--------------------------------------------META--TAGS--------------------------------------->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="canonical" href="https://www.slashanime.github.com / ">
+        <meta name="keywords" content="all the keywords separated by a comma(,)">
+        <meta name="author" content="splashAnime, anime">
+        <meta name="author" content="Dilli Hang">
+        <meta name="description" content="anime website">
+    
+        <!---------------------------------------------WEBSITE--TITLE---------------------------------->
+        <title>SlashAnime</title>
+        <!----------------------------------------------JQUERY--Framework------------------------------->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+        <!----------------------------------------------Fontsawesome Icons------------------------------->
+        <link rel="stylesheet" href="/logos/favicon.ico">
+        <!-- <link rel="manifest" href="/site.webmanifest"> -->
+        <!----------------------------------------------Fontsawesome Icons------------------------------->
+       <!----------------------------------------------Materials Icons------------------------------->
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">       
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css">       <!-- CSS stylesheets  -->
+        
+        <link rel="stylesheet" href="/css/reset.css" type="text/css">
+        <link rel="stylesheet" href="/css/head.css" type="text/css">
+        <link rel="stylesheet" href="/css/navigate.css" type="text/css"> 
+         <link rel="stylesheet" href="/css/main.css" type="text/css">
+         <link rel="stylesheet" href="/css/anime-home.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css">
+        <link rel="stylesheet" type="text/css" href="/slick/slick.css">
+
+        <style type="text/css">
+          html, body {
+            margin: 0;
+            padding: 0;
+          }
+      
+          * {
+            box-sizing: border-box;
+          }
+      
+          body{
+            /* background-image: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmlnaHQlMjBza3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover; */
+            background: #000;
+          }
+      
+          .slider {
+              width: 80%;
+              margin: 0px auto;
+          }
+      
+          .slick-slide {
+            margin: 0px 20px;
+          }
+      
+          .slick-slide img {
+            max-width: 100%;
+          }
+      
+          .slick-prev:before,
+          .slick-next:before {
+            color: #fff;
+          }
+      
+      
+          .slick-slide {
+            transition: all ease-in-out .3s;
+            opacity: .7;
+          }
+          
+          .slick-active {
+            opacity: 1;
+          }
+      
+          .slick-current {
+            opacity: 1;
+          }
+        </style>
+       
+    </head>
+     <body>
+     <!------------ Header Part starts------------->
+    <header>
+        <!-- Top-Most Header Part with logo only Starts-->
+        <div class="top-most-header">
+            <section class="logo">
+              <a href="template.html"> <img src="/logos/SlashAnime.png" alt="slashAnime-logo"></a>
+            </section>
+            <section class="donate">
+                <button class="btn-donate">Donate</button>
+            </section>
+        </div>
+
+              <!-- Top -Mid Header Part with Social Medias starts-->
+              <div class="top-mid-header">
+                <section class="comments">
+                  <a href="https://www.cbr.com/category/anime-news/" >
+                  <button class="top-query">
+                      Trending</a></button>
+                  <span class="material-icons">
+                      local_fire_department
+                      </span>
+                  </section>
+
+              <section class="social-medias">
+                  <a href="https://www.facebook.com/dilli822/" target="_blank"><span><i class="fa fa-facebook-square"></i></span></a>
+                  <a href="https://www.youtube.com/channel/UCGMG6ppG6kBj7gp1zROQAFA" target="_blank"><span><i class="fa fa-youtube-play"></i></span></a>
+                  <a href="https://www.instagram.com/?hl=enhttps://www.instagram.com/?hl=en" target="_blank"><span><i class="fa fa-instagram"></i></span></a>
+                  <a href="https://twitter.com/dilli_hangrae" target="_blank"><span><i class="fa fa-twitter-square"></i></span></a>
+                  <a href="https://www.pinterest.com/dillihangrae" target="_blank"><span><i class="fa fa-pinterest"></i></span></a>
+                  <a href="https://www.youtube.com/channel/UCGMG6ppG6kBj7gp1zROQAFA"><span><i class="fa fa-user-o"></i></span></a>
+              </section>
+            </div>
+                 <!-- Top -Mid Header Part with Social Medias Ends---->
+        
+               <!-- Top -Lower Header Part with Search box starts-->
+               <div class="lower-head">
+                <section class="logo2">
+                  <figure>
+                    <img src="/logos/Slash-Anime-main-logo.png" alt="Slash-Anime-main-logo.png">
+                </figure>
+                </section>
+                <section class="ads">Ads</section>
+            </div>
+                 <!-- Top -Lower Header Part with Search box  Ends---->
+                          <!-- Navigation Bar Starts -->
+            <div class="navigate">
+                <nav>
+                    <ul>
+                        <li id="li-red" style="width: 1vw; padding: 0rem; height: 80px; background-color: #fd0000;" ></li>
+                        <li><a id="myBtn" href="Head.html">HOME</a></li>
+                        <li><a href="#">MANGA</a></li>
+                        <li><a href="#">REVIEWS</a></li>
+                        <li class="dropdown">
+                            <a href="javascript:void(0)" class="dropbtn">SERIES</a>
+                            <div class="dropdown-content">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#">SEARCH</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <button class="openbtn" onclick="openNav()">☰ </button>  
+                    </ul>
+                </nav>   
+            </div>
+
+             <!--Collapsed Navigation Responsive Bar-->
+             <div id="mySidebar" class="sidebar">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+              <a href="#">HOME</a>
+              <a href="#">MANGA</a>
+              <!-- <a href="#"></a> -->
+              <a href="#">SERIES</a>
+              <a href="#">CONTACT</a>
+              <a href="#">SEARCH</a>
+              <a href="#">ABOUT</a>
+            </div>
+
+               <!-- Navigation Bar Ends---->
+            </header>
+            
+               
+                <main>
+                    <!-- Carousel/Slider Part Starts -->
+                  <section class="variable slider">
+                    <div>
+                      <a href="demo.html">
+                        <img style="width:350px; height: 500px;" src="/images/kimetsu no yaiba.jpg" alt="kimestu no yaiba.png"></a>
+                    </div>
+                    <div>
+                      <a href="demo.html"><img  style="width:350px; height: 500px;" class="slider"  src="/images/Attack-on-Titan-Season-4-Poster.jpg" alt="attack on titan season4.png">
+                      </a> </div>
+                    <div>
+                      <a href="demo.html">
+                      <img style="width:350px; height: 500px;"  class="slider"  src="/images/naruto-tv-series.jpg" alt="naruto-tv-series.png">
+                    </a></div>
+                    <div>
+                      <img style="width:350px; height: 500px;" class="slider"  src="/images/Full Metal Alchemist.jpg" alt="full metal alchemist.png">
+                
+                    </div>
+                    <div>
+                      <img style="width:350px; height: 500px;" class="slider"  src="/images/one-punch-man-season-2X.jpg" alt="onr punch man.png">
+                    </div>
+                    <div>
+                     <img style="width:350px; height: 500px;" class="slider"  src="/images/onepiece.jpg" alt="one piece.png">
+                    </div>
+                  </section>
+                              
+                      <!-- Carousel/Slider Parts Ends -->
+
+                    <!-- Main Hero Container Wrapper Starts -->
+                    <div class="hero-container">
+                      <div class="hero-left">
+                      <!-- Background Images/Gifs Left -Side -->
+                      </div>
+              
+                      <!-- Anime Posters Collections -->
+                      <div class="figure">
+                          <section class="figure1"></section><br>
+                          <section class="figure2"></section><br>
+                          <section class="figure3"></section><br>
+                          <section class="figure4"></section><br>
+                           <section class="figure5"></section><br>
+                          <section class="figure6"></section><br>
+                          <section class="figure7"></section> <br>
+                          <section class="figure8"></section> <br>
+                          <section class="igure9"></section> <br>
+                          <section class="figure10"></section>  <br>
+                          <section class="figure11"></section>  <br>
+                          <section class="figure12"></section>  <br>
+                          <section class="figure13"></section>  <br>
+                          <section class="figure14"></section>  <br>
+                          <section class="figure15"></section>  
+                    
+                  
+                      </div>
+              
+                      <!-- Anime details,info,ratings & links -->
+                      <div class="breif">
+                        <section class="brief">
+                          <ul style="display: inline-block">
+                              <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #fff; color:#000; display: inline-block">Rate</a></li>
+                              <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #91fc05c0; display: inline-block">Wiki</a></li>
+                              <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                              <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                              <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                              <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                              <li><a href="#"style=" color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                              <li><a href="#"style="color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                            </ul> <br> <br>
+              
+                            <h2 style="font-family: sans-serif;">The Promise Neverland</h2> <br>
+                           <article> 
+                            <!---- promised neverland -->
+                             <p class="description" style="font-family: Dosis">
+                              The Promised Neverland is a Japanese manga series written by Kaiu Shirai and illustrated by Posuka Demizu. It was serialized in Shueisha's Weekly Shōnen Jump from August 2016 to June 2020, with its chapters collected in twenty tankōbon volumes.
+                              Watch Episodes of Promise Neverland <br>
+                             Author: Kaiu Shirai <br>
+                             Genres: Dark fantasy, Science fiction, Thriller <br>
+                             Episodes: 23 (List of episodes‎)‎
+                            </p>
+                          </article>
+                            <!-- Button -->
+                           <a href="#" target="_blank"><button class="read-more"> Read More</button></a>
+                           <!-- Button Read-More -Watch Now-->   
+                           <a href="#" target="_blank"><button class="read-more-watch"> Watch Now</button></a> 
+                          </section> <br> 
+                      
+                          <section class="brief">
+                            <ul style="display: inline-block">
+                              <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #fff; color:#000; display: inline-block">Rate</a></li>
+                              <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #91fc05c0; display: inline-block">Wiki</a></li>
+                              <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                              <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                              <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                              <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                              <li><a href="#"style=" color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                              <li><a href="#"style="color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                              </ul> <br> <br>
+                
+                              <h2 style="font-family: sans-serif;">Jujustu Kaisen</h2> <br>
+                             <article> 
+                               <!-- jujustu kaisen -->
+                              <p class="description" style="font-family: Dosis">
+                                Jujutsu Kaisen is a Japanese manga series written and illustrated by Gege Akutami, serialized in Shueisha's Weekly
+                               Shōnen Jump since March 2018. The Jujutsu Kaisen chapters are collected and published by Shueisha, with 
+                               sixteen tankōbon volumes released as of June 2021 Overall great animation.<br>
+                               Author: Gege Akutami <br>
+                               Genres: Adventure fiction, Dark fantasy, Occult Fiction<br>
+                               Episodes: 24 (all episodes)
+                              </p>
+                            </article> 
+                              <!-- Button -->
+                           <a href="#" target="_blank"><button class="read-more"> Read More</button></a> 
+                            <!-- Button Read-More -Watch Now-->   
+                            <a href="#" target="_blank"><button class="read-more-watch"> Watch Now</button></a>   
+                                  </section>   <br> 
+                                 
+              
+                                 <!-- Black Clover -->
+                                 <section class="brief">
+                                  <ul style="display: inline-block">
+                                    <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #fff; color:#000; display: inline-block">Rate</a></li>
+                                    <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #91fc05c0; display: inline-block">Wiki</a></li>
+                                    <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                    <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                    <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                    <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                    <li><a href="#"style=" color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                    <li><a href="#"style="color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                    </ul> <br> <br>
+                  
+                                <h2 style="font-family: sans-serif;">Black Clover</h2> <br>
+                               <article>
+                                 <!-- black clover -->
+                                <p class="description" style="font-family: Dosis">
+                                  Black Clover is a Japanese manga series written and illustrated by Yūki Tabata. The story centers around Asta, a young boy born without any magic power. This is unknown to the world he lives in because seemingly everyone has some sort of magic power.
+                                  <br>
+                                  Original network: TXN (TV Tokyo) <br>
+                                 Publisher: Bandai Namco Entertainment <br>
+                                 Genres: Adventure fiction, Fantasy, Magic 
+                                </p>
+                              </article> 
+                                <!-- Button -->
+                               <a href="#" target="_blank"><button class="read-more"> Read More</button></a> 
+                                <!-- Button Read-More -Watch Now-->   
+                                <a href="#" target="_blank"><button class="read-more-watch"> Watch Now</button></a> 
+                               <br></section>   
+                             
+                             <!-- Boruto Next Generation -->
+                             <br>
+                               <section class="brief">
+                                <ul style="display: inline-block">
+                                  <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #fff; color:#000; display: inline-block">Rate</a></li>
+                                  <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #91fc05c0; display: inline-block">Wiki</a></li>
+                                  <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                  <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                  <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                  <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                  <li><a href="#"style=" color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                  <li><a href="#"style="color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                  </ul> <br> <br>
+                    
+                                  <h2 style="font-family: sans-serif;">Boruto:Next Generation</h2> <br>
+                                 <article>
+                                  <p class="description" style="font-family: Dosis">
+                                    Boruto is a Japanese manga series written by Ukyō Kodachi and Masashi Kishimoto, and illustrated by Mikio Ikemoto.Boruto originated from Shueisha's proposal to Kishimoto on making a sequel to Naruto. Boruto originated from Shueisha's proposal to Kishimoto on making a sequel to Naruto.
+                                     <br>
+                                     Authors: Ukyo Kodachi, Mikio Ikemoto <br>
+                                     Main character: Boruto Uzumaki <br>
+                                     All Volumes: 14 &  Episodes: 203  
+                                  </p>
+                                </article>
+                                  <!-- Button -->
+                             <a href="#" target="_blank"><button class="read-more"> Read More</button></a> 
+                             <!-- Button Read-More -Watch Now-->   
+                             <a href="#" target="_blank"><button class="read-more-watch"> Watch Now</button></a> 
+                            </section> 
+                             
+                             <br>
+                                <!-- CastleVania -->
+                                <section class="brief">
+                                  <ul style="display: inline-block">
+                                    <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #fff; color:#000; display: inline-block">Rate</a></li>
+                                    <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #91fc05c0; display: inline-block">Wiki</a></li>
+                                    <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                    <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                    <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                    <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                    <li><a href="#"style=" color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                    <li><a href="#"style="color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                    </ul> <br> <br>
+                      
+                                    <h2 style="font-family: sans-serif;">CastleVania</h2> <br>
+                                   <article>
+                                    <p class="description" style="font-family: Dosis">
+                                      Inspired by the popular video game s It follows the last surviving member of the disgraced Belmont clan, Trevor Belmont, trying to save Eastern Europe from extinction at the hands of Vlad Dracula Tepes Castlevania.
+                                      <br>
+                                      Animators: Powerhouse Animation; Mua Film (seasons 1–3);<br>
+                                       Tiger Animation (season 4) <br>
+                                      Production: Frederator Studios; Shankar Animation
+                                    </p>
+                                  </article> 
+                                    <!-- Button -->
+                                  <a href="#" target="_blank"><button class="read-more"> Read More</button></a>      
+                                 <!-- Button Read-More -Watch Now-->   
+                                 <a href="#" target="_blank"><button class="read-more-watch"> Watch Now</button></a> 
+                                </section>   
+                                  
+                                  <br>
+                                  <!-- Steins Gate -->
+                                 <section class="brief">
+                                    <ul style="display: inline-block">
+                                      <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #fff; color:#000; display: inline-block">Rate</a></li>
+                                      <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #91fc05c0; display: inline-block">Wiki</a></li>
+                                      <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                      <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                      <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                      <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                      <li><a href="#"style=" color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                      <li><a href="#"style="color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                      </ul>
+                                      <br> <br>
+                        
+                                      <h2 style="font-family: sans-serif;">Steins Gate</h2> <br>
+                                     <article>
+                                      <p class="description" style="font-family: Dosis">
+                                        A group of friends creates a machine capable of sending messages across time, and cause ripples through the past and present.It has an amazing story, self-consistent in logic, containing a bit of science fiction elements., well told, and <br> every emotional rendering details is designed by heart.
+                                         <br>
+                                         Cast: Mamoru Miyano, Kana Hanazawa... <br>
+                                        Genres: Anime, Sci-fiction, Comedy, Drama, Psychological thriller
+                   
+                                      </p>
+                                    </article> 
+                                      <!-- Button -->
+                                   <a href="#" target="_blank"><button class="read-more"> Read More</button></a>    
+                                   <!-- Button Read-More -Watch Now-->   
+                                   <a href="#" target="_blank"><button class="read-more-watch"> Watch Now</button></a> 
+                                  </section>   
+              
+                                   <br>
+                                    <!-- Mob Psycho -->
+                                   <section class="brief">
+                                     <ul style="display: inline-block">
+                                        <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #fff; color:#000; display: inline-block">Rate</a></li>
+                                        <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #91fc05c0; display: inline-block">Wiki</a></li>
+                                        <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                        <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                        <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                        <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                        <li><a href="#"style=" color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                        <li><a href="#"style="color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                        </ul> <br> <br>
+                          
+                                        <h2 style="font-family: sans-serif;">Mob Psycho</h2> <br>
+                                       <article>
+                                        <p class="description" style="font-family: Dosis">
+                                          Mob Psycho 100 is a Japanese manga series written and illustrated by ONE. It was serialized on Shogakukan's Ura Sunday website from April 2012 to December 2017. It has been also available online on Shogakukan's mobile app MangaONE since December 2014. 
+                                          <br>
+                                          Shogakukan compiled its chapters into sixteen tankōbon volumes.
+                                          <br>
+                                           Eng-Network: SEA AnimaxUS Adult  <br>
+                                
+                                           Genres: Action & Occult fiction, Comedy
+                                        
+                                        </p>
+                                      </article>  
+                                        <!-- Button -->
+                                     <a href="#" target="_blank"><button class="read-more"> Read More</button></a>      
+                                     <!-- Button Read-More -Watch Now-->   
+                                     <a href="#" target="_blank"><button class="read-more-watch"> Watch Now</button></a> 
+                                     </section>   
+                                     <br>
+                                      <!-- 7deadly Sins -->
+                                    <section class="brief">
+                                        <ul style="display: inline-block">
+                                          <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #fff; color:#000; display: inline-block">Rate</a></li>
+                                          <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #91fc05c0; display: inline-block">Wiki</a></li>
+                                          <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                          <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                          <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                          <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                          <li><a href="#"style=" color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                          <li><a href="#" style="color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                          </ul> <br> <br>
+                            
+                                          <h2 style="font-family: sans-serif;">7 Deadly Sins</h2> <br>
+                                         <article>
+                                          <p class="description" style="font-family: Dosis">
+                                            The seven deadly sins, also known as the capital vices, or cardinal sins, are a grouping and classification of vices within Christian teachings, although they are not mentioned in the Bible. Behaviors or habits are classified under this category if they directly give rise to other immoralities.
+                                            <br>
+                                             Program creator: Nakaba Suzuki<br>
+                                           Genres: Dark fantasy, Action, supernatural <br>
+                                           Episodes: 25 
+                                       
+                                          </p>
+                                        </article>    <br> 
+                                          <!-- Button -->
+                                        <a href="#" target="_blank"><button class="read-more"> Read More</button></a>      
+                                       <!-- Button Read-More -Watch Now-->   
+                                       <a href="#" target="_blank"><button class="read-more-watch"> Watch Now</button></a> 
+                                      </section>   <br>
+               
+                                           <!-- Kingdom Season 3 -->
+                                         <section class="brief">
+                                          <ul style="display: inline-block">
+                                            <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #fff; color:#000; display: inline-block">Rate</a></li>
+                                            <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #91fc05c0; display: inline-block">Wiki</a></li>
+                                            <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                            <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                            <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                            <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                            <li><a href="#"style=" color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                            <li><a href="#"style="color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                            </ul> <br> <br>
+                              
+                                            <h2 style="font-family: sans-serif;">Kingdom Season3</h2> <br>
+                                           <article>
+                                            <p class="description" style="font-family: Dosis">
+                                              Kingdom is an anime adaptation of a manga series of the same title written and illustrated by Yasuhisa Hara. On December 15, 2019, it was announced that the series will receive a third season along with a new production staff. <br> The season premiered on April 6, 2020.
+                                              the series doesn't have romance<br> 
+                                               All Episodes: 10 <br>
+                                         
+                                               Original network: NHK BS Premium, NHK General TV 
+                                               
+                                            </p>
+                                          </article>
+                                            <!-- Button -->
+                                           <a href="#" target="_blank"><button class="read-more"> Read More</button></a>        
+                                           <!-- Button Read-More -Watch Now-->   
+                                           <a href="#" target="_blank"><button class="read-more-watch"> Watch Now</button></a> 
+                                          </section>  
+              
+                                           <br>
+                                          <!-- Anime Bleach -->
+                                          <section class="brief">
+                                            <ul style="display: inline-block">
+                                              <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #fff; color:#000; display: inline-block">Rate</a></li>
+                                              <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #91fc05c0; display: inline-block">Wiki</a></li>
+                                              <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                              <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                              <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                              <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                              <li><a href="#"style=" color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                              <li><a href="#"style="color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                              </ul> <br> <br>
+                                
+                                              <h2 style="font-family: sans-serif;">Bleach</h2> <br>
+                                             <article>
+                                              <p class="description" style="font-family: Dosis">
+                                                Ichigo Kurosaki never asked for the ability to see ghosts -- he was born with the gift. When his family is attacked by a Hollow -- a malevolent lost soul -- Ichigo becomes a Soul Reaper, dedicating his life to protecting the innocent and helping the tortured spirits themselves find peace.
+                                                <br>
+                                                1st Release: October 5, 2004 <br>
+                                                Studio: Pierrot <br>
+                                                 
+                                                Cast: Johnny Yong Bosch, Stephanie Sheh 
+                                            
+                                              </p>
+                                            </article>
+                                              <!-- Button -->
+                                            <a href="#" target="_blank"><button class="read-more"> Read More</button></a>      
+                                           <!-- Button Read-More -Watch Now-->   
+                                           <a href="#" target="_blank"><button class="read-more-watch"> Watch Now</button></a> 
+                                          </section>  
+              
+                                            <br>
+                                            <!-- DargonBall-Z -->
+                                             <section class="brief">
+                                              <ul style="display: inline-block">
+                                                <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #fff; color:#000; display: inline-block">Rate</a></li>
+                                                <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #91fc05c0; display: inline-block">Wiki</a></li>
+                                                <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                <li><a href="#"style=" color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                <li><a href="#"style="color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                </ul> <br> <br>
+                                  
+                                                <h2 style="font-family: sans-serif;">Dragon Ball Super</h2> <br>
+                                               <article>
+                                                <p class="description" style="font-family: Dosis">
+                                                  After waking up from decades of slumber, Beerus, the god of destruction, wants to defeat Goku, the Super Saiyan God, whom he had seen in his sleep. Goku fights with him to save earth.
+                                                 <br>
+                                                  The series ended on March 25, 2018, with the conclusion of the "Universe Survival Saga".<br>
+                                                 
+                                                  song: Limit-Break x Survivor <br>
+                                                  Cast: Christopher Sabat, Sean Schemmel, Masako Nozawa
+                                                
+                                                </p>
+                                              </article> 
+                                                <!-- Button -->
+                                            <a href="#" target="_blank"><button class="read-more"> Read More</button></a>    
+                                           <!-- Button Read-More -Watch Now-->   
+                                           <a href="#" target="_blank"><button class="read-more-watch"> Watch Now</button></a> 
+                                          </section>   
+              
+                                            <br>
+                                              <!-- Death nNote -->
+                                             <section class="brief">
+                                                <ul style="display: inline-block">
+                                                  <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #fff; color:#000; display: inline-block">Rate</a></li>
+                                                  <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #91fc05c0; display: inline-block">Wiki</a></li>
+                                                  <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                  <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                  <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                  <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                  <li><a href="#"style=" color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                  <li><a href="#"style="color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                  </ul> <br> <br>
+                                    
+                                                  <h2 style="font-family: sans-serif;">Death Note</h2> <br>
+                                                 <article>
+                                                  <p class="description" style="font-family: Dosis">
+                                                    Death Note is a Japanese manga series written by Tsugumi Ohba and illustrated by Takeshi Obata.
+                                                    Light Yagami, a teen genius who discovers a mysterious notebook: <br> the "Death Note", 
+                                                   which belonged to the Shinigami Ryuk, and grants the user the supernatural ability to kill anyone whose name is written in its pages.                                       
+                                              
+                                                      <br> 
+                                                    Episodes: 37  <br>
+                                                    Genres: Mystery, Psychological thriller, Thriller
+              
+                                                  </p>
+                                                </article>
+                                                  <!-- Button -->
+                                              <a href="#" target="_blank"><button class="read-more"> Read More</button></a>        
+                                             <!-- Button Read-More -Watch Now-->   
+                                             <a href="#" target="_blank"><button class="read-more-watch"> Watch Now</button></a> 
+                                            </section>  
+              
+                                              <br>
+                                                <!-- Fairy Tale -->
+                                               <section class="brief">
+                                                  <ul style="display: inline-block">
+                                                    <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #fff; color:#000; display: inline-block">Rate</a></li>
+                                                    <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #91fc05c0; display: inline-block">Wiki</a></li>
+                                                    <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    <li><a href="#"style=" color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    <li><a href="#"style="color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    </ul> <br> <br>
+                                      
+                                                    <h2 style="font-family: sans-serif;">Fairy Tail</h2> <br>
+                                                   <article>
+                                                    <p class="description" style="font-family: Dosis">
+                                                      Fairy Tail is a Japanese manga series written and illustrated by Hiro Mashima. It was serialized in Kodansha's Weekly Shōnen Magazine from August 2006 to July 2017, with the individual chapters collected and published into 63 tankōbon volumes
+                                                      <br>
+                                                      Written by	Hiro Mashima <br>
+                                                    
+                                                     Characters: Natsu , Lucy , Erza , Gray , Happy, Wendy, Carla <br>
+                                                     Genres: Adventure fiction, Fantasy
+                                                    </p>
+                                                  </article>
+                                                    <!-- Button -->
+                                                   <a href="#" target="_blank"><button class="read-more"> Read More</button></a>  
+                                                    <!-- Button Read-More -Watch Now-->   
+                                                  <a href="#" target="_blank"><button class="read-more-watch"> Watch Now</button></a>     
+                                                  </section>
+                                                  <br>
+                                                  <!-- Hunter-X-Hunter -->
+                                               <section class="brief">
+                                                  <ul style="display: inline-block">
+                                                    <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #fff; color:#000; display: inline-block">Rate</a></li>
+                                                    <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #91fc05c0; display: inline-block">Wiki</a></li>
+                                                    <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    <li><a href="#"style=" color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    <li><a href="#"style="color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    </ul> <br> <br>
+                                      
+                                                    <h2 style="font-family: sans-serif;">Hunter-X-Hunter</h2> <br>
+                                                   <article>
+                                                    <p class="description" style="font-family: Dosis">
+                                                      Hunter × Hunter (stylized as HUNTER×HUNTER; pronounced "Hunter Hunter") is a Japanese manga series written and illustrated by Yoshihiro Togashi. It has been serialized in Shueisha's <br> Weekly Shōnen Jump since March 1998, although the manga has frequently gone on extended hiatuses since 2006. 
+                                                      Adapted from: Hunter × Hunter <br>
+                                                     
+                                                      Total Seasons four seasons<br>
+                                                     Genre: Adventure, Fantasy ,Martial arts 
+              
+                                                 
+                                             
+                                                    </p>
+                                                  </article>
+                                                    <!-- Button -->
+                                                   <a href="#" target="_blank"><button class="read-more"> Read More</button></a> 
+                                                   <!-- Button Read-More -Watch Now-->   
+                                                   <a href="#" target="_blank"><button class="read-more-watch"> Watch Now</button></a> 
+                                                  </section>  
+              
+                                                   <br>
+                                                  <!-- Kimi no Wa Your Name -->
+                                                 <section class="brief"> 
+                                                  <ul style="display: inline-block">
+                                                    <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #fff; color:#000; display: inline-block">Rate</a></li>
+                                                    <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #91fc05c0; display: inline-block">Wiki</a></li>
+                                                    <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    <li><a href="#"style="color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    <li><a href="#"style=" color:#ff0000; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    <li><a href="#"style=" color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    <li><a href="#"style="color:#fff; display: inline-block"><span><i class="fa fa-star"></i></span></a></li>
+                                                    </ul> <br> <br>
+                                      
+                                                    <h2 style="font-family: sans-serif;">Your Name</h2> <br>
+                                                   <article>
+                                                    <p class="description" style="font-family: Dosis">
+                                                      Your Name ( 君の名は, Kimi no Na wa) is a 2016 Japanese animated romantic fantasy film produced by CoMix Wave Films and released by Toho. <br>
+                                                      It depicts a high school boy in Tokyo and a high school girl in the Japanese countryside who suddenly and inexplicably begin to swap bodies.
+                                                     <br>
+                                                     Wriiten & Directed By: Makoto Shinkai <br>
+                                                     Genres: Romance,Drama,Fantasy <br>
+                                                     lorem
+                                                    </p>
+                                                  </article>   
+                                                    <!-- Button -->
+                                                 <a href="#" target="_blank"><button class="read-more"> Read More</button></a> 
+                                                  <!-- Button Read-More -Watch Now-->   
+                                                  <a href="#" target="_blank"><button class="read-more-watch"> Watch Now</button></a> 
+                                                 </section>  
+                                        
+                                     </div>
+
+                       <div class="single">
+                        <!-- Kakegurui -->
+                        <div  class="inner-single">
+                          <section class="inner-single-video-box"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Kakegurui</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                            2017 ‧ Gambling ‧ 2seasons</a> 
+                          <br>
+                          <a href="#" style="text-decoration: underline;" class="ext-lnk"> By MAPPA 
+                         <a href="#" style="text-decoration: underline;" class="ext-lnk">Written byHomura Kawamoto</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+                        <br>
+              
+                        <!-- Dororo Anime -->
+                        <div  class="inner-single2">
+                          <section class="inner-single-video-box2"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Dororo</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                              ‎Dororo (2019 TV series) </a> 
+                          <br>
+                          <!-- <a href="" style="text-decoration: underline;"> By MAPPA <br> -->
+                         <a href="#" style="text-decoration: underline;">Genre: Action; ‎Dark fantasy‎; ‎Historical fantasy‎;‎</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#"  target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+                        <br>
+                     <!-- New New!! -->
+                       <!-- Millionaire Detective  -->
+                        <div  class="inner-single3">
+                          <section class="inner-single-video-box3"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                              <!-- New -->
+                              <ul style="display: inline-block">
+                                <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #ff0000; color:#fff; display: inline-block; list-style:none; padding: .3rem;">New!</a></li>
+                                </ul>
+                            <h3> Millionaire Detective</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;"class="ext-lnk">2020 |season 1
+                            <a href="#" style="text-decoration: underline;"class="ext-lnk">
+                                Comedy,detective,mystery</a>  
+      
+                          <a href="#" style="text-decoration: underline;">Studio:CloverWorks
+                         <!-- <a href="" style="text-decoration: underline;"></a>  -->
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+                        <br>
+              
+                        <!-- Tokyo GHoul -->
+              
+                        <div  class="inner-single4">
+                          <section class="inner-single-video-box4"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Tokyo Ghoul</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                              2014 ‧ Horror ‧ 2 seasons</a> 
+                          
+                          <a href="#" style="text-decoration: underline;"class="ext-lnk"> Shueisha <br>
+                         <a href="#" style="text-decoration: underline;"class="ext-lnk">Genres: Dark fantasy, Thriller</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+                        <br>
+                        <!-- Re:Zero -->
+              
+                        <div  class="inner-single5">
+                          <section class="inner-single-video-box5"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Re:Zero </h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                              2016 ‧ Drama ‧ 2 seasons</a> 
+                          <br>
+                          <a href="#" style="text-decoration: underline;"class="ext-lnk"> TXN (TV Tokyo) <br>
+                         <a href="#" style="text-decoration: underline;"class="ext-lnk">Genres: Drama, Adventure</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+                   <br>
+              
+                   <!-- My Hero Academia -->
+                        <div  class="inner-single6">
+                          <section class="inner-single-video-box6"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>My Hero Academia</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                              2016 ‧ 4 seasons</a> 
+                          <br>
+                          <a href="#" style="text-decoration: underline;"class="ext-lnk">Studio: Bones
+                         <a href="#" style="text-decoration: underline;"class="ext-lnk">Genres:Action fiction, Comedy</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+                        <br>
+              
+                        <!-- Berserk -->
+                        <div  class="inner-single7">
+                          <section class="inner-single-video-box7"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Berserk</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                            2016|18+|2Seasons|</a> <br>
+                                  <!--                         
+                          <a href="" style="text-decoration: underline;"> By Seinen <br> -->
+                         <a href="#" style="text-decoration: underline;">Genres:Dark & High Fantasy,Sword and sorcery</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+                              <br>
+              
+                              <!-- Ghost In Shell -->
+                        
+                        <div  class="inner-single8">
+                          <section class="inner-single-video-box8"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Ghost in the Shell</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                              1995 ‧ Sci-fi/Action
+                            </a> 
+                          <br>
+                          <a href="#" style="text-decoration: underline;"class="ext-lnk"> Studio: Production I.G; Sola Digital Arts <br>
+                         <a href="#" style="text-decoration: underline;" class="ext-lnk"></a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+                        <br>
+                        <!-- Pacific Rim Rising  -->
+                        
+                        <div  class="inner-single9">
+                          <section class="inner-single-video-box9"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Pacific Rim</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                              2021 ‧ Action ‧ 1 season</a> 
+                          
+                          <a href="#" style="text-decoration: underline;" class="ext-lnk"> Studio	Polygon Pictures <br>
+                         <a href="#" style="text-decoration: underline;" class="ext-lnk"> by	Homura Kawamoto</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+                        <br>
+                        <!-- Clanned -->
+                        <div  class="inner-single10">
+                          <section class="inner-single-video-box10"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>	Clannad After Story (TV)</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                              2007 | TV-PG | 2 Seasons |</a> 
+                          <br>
+                          <!-- <a href="" style="text-decoration: underline;">  -->
+                         <a href="#" style="text-decoration: underline;"class="ext-lnk">Genre:comedy,drama</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            
+                                </article>
+                          </section>
+                        </div>
+              
+              
+                        <br>
+                        <!-- New New New -->
+
+                        <!-- I am standing on one million  -->
+                        
+                        <div  class="inner-single11">
+                          <section class="inner-single-video-box11"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                               <!-- New -->
+                               <ul style="display: inline-block">
+                                <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #ff0000; color:#fff; display: inline-block; list-style:none; padding: .3rem;">New!</a></li>
+                                </ul>
+                            <h3 style="font-size: 1rem">I'm Standing on a Million Lives</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;" class="ext-lnk">
+                              2020 ‧ 1 season</a> 
+                          
+                          <!-- <a href="" style="text-decoration: underline;"> By MAPPA <br> -->
+                         <a href="#" style="text-decoration: underline;" class="ext-lnk">Genre:Fantasy,isekai</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+                        <br>
+                        
+                        <!-- Monster Anime -->
+                        <div  class="inner-single12">
+                          <section class="inner-single-video-box12"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                           
+                            <h3>Monster</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                              21 June 2002</a> 
+                          <br>
+                          <a href="#" style="text-decoration: underline;" class="ext-lnk" > Studio:Madhouse <br>
+                         <a href="#" style="text-decoration: underline;"class="ext-lnk">Crime; Mystery; Psychological thriller;</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#"  target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+                        <br>
+                        
+                        <!-- Izetta The Last Witch -->
+                        <div  class="inner-single13">
+                          <section class="inner-single-video-box13"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Izetta The Last Witch</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;" class="ext-lnk">
+                              2016.Animation.1 season</a> 
+                          <br>
+                          <!-- <a href="" style="text-decoration: underline;"> By MAPPA <br> -->
+                         <a href="#" style="text-decoration: underline;" class="ext-lnk">Historical fantasy; ‎Military‎;‎</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+                        <br>
+                        
+                        <!-- !New New New -->
+                        <!-- Dota -->
+                        <div  class="inner-single14">
+                          <section class="inner-single-video-box14"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                                <!-- New -->
+                                <ul style="display: inline-block">
+                                  <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #ff0000; color:#fff; display: inline-block; list-style:none; padding: .3rem;">New!</a></li>
+                                  </ul>
+                            <h3>Dota</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                            2021 | Season 1</a> 
+                          <br>
+                          <a href="#" style="text-decoration: underline;" class="ext-lnk"> By MAPPA <br>
+                         <a href="#" style="text-decoration: underline;" class="ext-lnk">Written by	Homura Kawamoto</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            
+                                </article>
+                          </section>
+                        </div>
+              
+              
+                        <br>
+
+                        <!-- Basket Fruits -->
+                        
+                        <div  class="inner-single15">
+                          <section class="inner-single-video-box15"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Fruits Basket</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;" class="ext-lnk">
+                              2019|26 seasons</a> 
+                          <br>
+                          <!-- <a href="" style="text-decoration: underline;"> By MAPPA <br> -->
+                         <a href="#" style="text-decoration: underline;"class="ext-lnk">Slice of life, Romantic comedy</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+                        <br>
+                        
+                        <!-- Violet Evergarden -->
+                        <div  class="inner-single16">
+                          <section class="inner-single-video-box16"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Violet Evergarden</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;" class="ext-lnk">
+                              2018 ‧ Anime ‧ 1 season</a> 
+                          <br>
+                          <!-- <a href="" style="text-decoration: underline;"> By MAPPA <br> -->
+                         <a href="#" style="text-decoration: underline;" class="ext-lnk">Genres: Anime, Drama</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+                        <br>
+                        
+                        <!-- Slam Dunk -->
+                        <div  class="inner-single17">
+                          <section class="inner-single-video-box17"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Slam Dunk:National Champions</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;" class="ext-lnk">
+                              1994 film</a> 
+                          <br>
+                          <!-- <a href="" style="text-decoration: underline;"> By MAPPA <br> -->
+                         <a href="#" style="text-decoration: underline;" class="ext-lnk">Film series</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+                        <br>
+
+                        
+                        <!-- Vinland Saga -->
+                        <div  class="inner-single18">
+                          <section class="inner-single-video-box18"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Vinland Saga</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                            2019‧Seinen‧</a> 
+                          
+                          <a href="#" style="text-decoration: underline;" class="ext-lnk"> By MAPPA <br>
+                         <a href="#" style="text-decoration: underline;"class="ext-lnk">Adventure fiction, Epic, Historical</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+                        <br>
+                        
+                        <!-- The Classroom of Elite -->
+                        <div  class="inner-single19">
+                          <section class="inner-single-video-box19"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Classroom of the Elite</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;" class="ext-lnk">
+                              2017 ‧ Anime ‧1season</a> 
+                          <br>
+                          <!-- <a href="" style="text-decoration: underline;"> By MAPPA <br> -->
+                         <a href="#" style="text-decoration: underline;" class="ext-lnk">Psychological thriller</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+              
+                        <br>
+                        
+                        <!-- Zombieland Saga -->
+                        <div  class="inner-single20">
+                          <section class="inner-single-video-box20"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Zombie Land Saga</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                              2018 ‧ Animation ‧ 2 seasons</a> 
+                          <br>
+                          <a href="#" style="text-decoration: underline;" class="ext-lnk"> By MAPPA <br>
+                         <a href="#" style="text-decoration: underline;" class="ext-lnk">comedy horror</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+                  
+                        <br>
+                        
+                        <!-- Sirius Jaeger -->
+                        <div  class="inner-single21">
+                          <section class="inner-single-video-box21"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Sirius the Jaeger</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                              2018 ‧ Action fiction ‧ 1 season</a> 
+                          <br>
+                          <a href="#" style="text-decoration: underline;" class="ext-lnk"> By P.A.​Works <br>
+                         <a href="#" style="text-decoration: underline;" class="ext-lnk"> Action, thriller</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+                        <br>
+                        
+                        <!-- !New New New -->
+
+                        <!-- Great Prenteder -->
+                        <div  class="inner-single22">
+                          <section class="inner-single-video-box22"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                               <!-- New -->
+                               <ul style="display: inline-block">
+                                <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #ff0000; color:#fff; display: inline-block; list-style:none; padding: .3rem;">New!</a></li>
+                                </ul>
+                            <h3>Great Pretender</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;" class="ext-lnk">
+                              2020 ‧ Comedy ‧ 2 seasons</a> 
+                          <br>
+                          <a href="#" style="text-decoration: underline;" class="ext-lnk"> By Wit Studio<br>
+                         <!-- <a href="" style="text-decoration: underline;">Comedy, crime</a>  -->
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+                        <br>
+                        
+                        <!-- Food Wars! Shokugeki no Soma -->
+                        <div  class="inner-single23">
+                          <section class="inner-single-video-box23"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Food Wars! Shokugeki no Soma</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                              2015 ‧ 5 seasons</a> 
+                          <br>
+                          <a href="#" style="text-decoration: underline;" class="ext-lnk"> J.C.Staff<br>
+                         <a href="#" style="text-decoration: underline;" class="ext-lnk"> Comedy, Slice of life</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+                        <br>
+                        
+
+                        <!-- Iroduku: The World in Colors -->
+                        <div  class="inner-single24">
+                          <section class="inner-single-video-box24"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Iroduku: The World in Colors</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;" class="ext-lnk">
+                              2018 ‧ Time Travel Fiction ‧ 1 season</a> 
+                          <br>
+                          <!-- <a href="" style="text-decoration: underline;"> By MAPPA <br> -->
+                         <!-- <a href="" style="text-decoration: underline;">Written by	Homura Kawamoto</a>  -->
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+              
+                        <br>
+                        
+                        <!-- !New New New -->
+
+                        <!-- Blood of Zeus -->
+                        <div  class="inner-single25">
+                          <section class="inner-single-video-box25"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                                <!-- New -->
+                                <ul style="display: inline-block">
+                                  <li><a href="#" style="font-family: Dosis,'sans-serif'; background-color: #ff0000; color:#fff; display: inline-block; list-style:none; padding: .3rem;">New!</a></li>
+                                  </ul>
+                            <h3>Blood of Zeus</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;" class="ext-lnk">
+                              2020 ‧ Adventure fiction ‧ 1 season</a> 
+                          <br>
+                          <a href="#" style="text-decoration: underline;" class="ext-lnk"> On Netflix <br>
+                         <!-- <a href="" style="text-decoration: underline;">Written by	Homura Kawamoto</a>  -->
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+                        <br>
+                        <!-- Vampire Knight -->
+                        
+                        <div  class="inner-single26">
+                          <section class="inner-single-video-box26"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Vampire Knight</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;" class="ext-lnk">
+                              2008 | TV-14 | 2 Seasons</a> 
+                          
+                          <!-- <a href="" style="text-decoration: underline;"> By shōjo<br> -->
+                         <a href="#" style="text-decoration: underline;" class="ext-lnk">Dark fantasy; Romance; Supernatural;</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+                        <br>
+                        
+                        <!-- Relife -->
+                        <div  class="inner-single27">
+                          <section class="inner-single-video-box27"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>Relife</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;">
+                              2016 ‧ 1 season</a> 
+                          
+                          <a href="#" style="text-decoration: underline;" class="ext-lnk"> Earth Star Entertainment
+                         <a href="#" style="text-decoration: underline;" class="ext-lnk"> Drama, Romance novel, Slice of life</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="https://www.facebook.com/" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+              
+              
+                        <br>
+                        
+                        <!-- B:The Beginning -->
+                        <div  class="inner-single28">
+                          <section class="inner-single-video-box28"> <!--Bg-Anime Poster--> </section>
+                          <!-- section inner single description and links with btn -->
+                          <section class="inner-single-des">
+                            <article>
+                            <h3>B:The Beginning</h3>
+                           <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                            <a href="#" style="text-decoration: underline;"class="ext-lnk">
+                              2018 ‧2 seasons</a> 
+                          <br>
+                          <!-- <a href="" style="text-decoration: underline;"> By I.G <br> -->
+                         <a href="#" style="text-decoration: underline;" class="ext-lnk">Action,Sci-fiction,Psychological thriller</a> 
+                           </aside> 
+                                 <!-- Button Watch Now-->
+                                 <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>                
+                            </article>
+                          </section>
+                        </div>
+
+                        <br>
+              
+               <!-- The Saga of Tanya the Evil -->
+               <div  class="inner-single29" >
+                <section class="inner-single-video-box29"> 
+                <!--Bg-Anime Poster--> </section>
+                <!-- section inner single description and links with btn -->
+                <section class="inner-single-des">
+                  <article>
+                  <h3>The Saga of Tanya the Evil  </h3>
+                 <aside style="font-family: sans-serif; font-size: .75rem; padding: 0rem .7rem; line-height: 1.3rem;">
+                  <a href="#" style="text-decoration: underline;"class="ext-lnk">
+                    2017 | 16+ | 1 Season</a>  
+                
+                <!-- <a href="" style="text-decoration: underline;">Eps:12  -->
+               <a href="#" style="text-decoration: underline;" class="ext-lnk">Fantasy, War story</a> 
+                 </aside> 
+                       <!-- Button Watch Now-->
+                       <a href="#" target="_blank"><button class="watch-now"> Watch Now</button></a>              
+                  </article>
+                </section>
+              </div>
+                
+                      
+        
+                      
+
+                      </div>
+          
+            
+                    <div class="right">
+                        <!-- Background Images/Gifs Right -Side -->
+                    </div>
+                </div> 
+
+                 <!----------------------- Anime Home Nest Starts----------------------------------------- -->
+    <div class="anime-home-wrapper">
+
+      <!-- Left Division -->
+      <div class="anime-home-left">
+          <section class="inner-anime-top-left">
+             <!--Bg Poster Kimetsu no yaiba-->
+          </section>
+          <br>
+          <section class="inner-anime-down-left">
+              <section class="inner-anime-down-left-poster">
+                  <!-- Bg gifs ONe punch Man -->
+              </section>
+              <section class="inner-anime-down-left-clip">
+                  <!-- Clipath -->
+              </section>
+          </section>
+      </div>
+
+      <div class="anime-home-mid">
+             <section class="inner-anime-top-mid">
+          <section class="inner-anime-top-mid-poster">
+              <!-- Bg gifs Eren & Mikasa -->
+          </section>
+          <section class="inner-animme-top-mid-clip">
+              <!-- Clip path -->
+          </section>
+         </section>
+          <br>
+          <section class="article-home">
+              <article>
+                  <h3>The Anime Home <br> 
+                      for you</h3>
+                      <br> 
+                  <button class="explore">Explore</button>
+              </article>
+          </section>
+          
+          <section class="inner-anime-down-mid">
+              <section class="inner-anime-down-mid-clippy">
+                  <!-- Clippath -->
+              </section>
+              <section class="inner-anime-down-mid-poster">
+                  <!-- Bleach One Piece -->
+              </section>
+          </section>
+      </div>
+
+
+      <div class="anime-home-right">
+          <section class="inner-anime-top-right">
+              <section class="inner-anime-top-right-clip">
+                  <!-- Clippath  -->
+              </section>
+              <section class="inner-anime-down-right-poster">
+                  <!-- Bg One  Piece gifs Zoro & Sanji -->
+              </section>
+          </section>
+          
+          <section class="inner-anime-down-right" style="display: block; float: right;" >
+              <!-- Bg Gifs ITachi with Sharingan -->
+          </section>
+
+      </div>
+
+  </div>
+  <!----------------------------- Anime Home Nest Ends --------------------->
+                   
+                   <!-- Main Hero Container Wrapper Ends -->
+                  </main> 
+
+
+         <!-- Footer part starts -->
+         <footer>
+         <p class="copyright"> ©SlashAnime 2021. All Rights Reserved. Powered by SlashAnime & Hangko.co <span style="color:rgb(255, 0, 0)"class="red"><a style="color:rgb(255, 0, 0)" href="#">Watch & Read Manga Anime Free </a></span></p>
+         <p class="copyright">For more information,Suggestion & queries call<span class="red"><a style="color:rgb(255, 0, 0)"href="tel:+977-9811075414">+977-9811075414</a></span> </p>
+    
+       </footer>
+         <!-- Footer part Ends--->
+         <!-- import js libraries,framework & slick -->
+         <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+         <script src="script/index.js" type="text/javascript"></script>
+         <script src="/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+         <script src="/script/Slick-jquery.js" type="text/javascript" s></script>
+
+  <!-- import js libraries,framework & slick -->
+  
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <!-- <script src="script/index.js" type="text/javascript"></script> -->
+  <script src="/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+   <!-- import js libraries,framework & slick -->
+   <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".vertical-center-4").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 4,
+        slidesToScroll: 2
+      });
+      $(".vertical-center-3").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".vertical-center-2").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 2,
+        slidesToScroll: 2
+      });
+      $(".vertical-center").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+      });
+      $(".vertical").slick({
+        dots: true,
+        vertical: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 3
+      });
+      $(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true
+      });
+      $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true
+      });
+    });
+
+    //for top-mid header
+    $('.top-query').hover(function(){
+            $('.top-query').css("width", '7vw'),2000
+        })
+
+        //For collapsed nav bar
+        function openNav() {
+                  document.getElementById("mySidebar").style.width = "250px";
+                  document.getElementById("main").style.marginLeft = "250px";
+                }
+                
+                function closeNav() {
+                  document.getElementById("mySidebar").style.width = "0";
+                  document.getElementById("main").style.marginLeft= "0";
+                }
+      </script>
+    </body>
+    </html>
