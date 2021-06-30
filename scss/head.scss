@@ -1,0 +1,141 @@
+
+//  @import url('./reset.scss');
+ @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+//  @import url('./variables.scss');
+    
+    // Flex Mixins only
+     a{
+        text-decoration: none;
+        color:#fff;
+    }
+    
+    @mixin flexSpaceBetween(){
+        display: flex;
+        justify-content: space-between;
+        align-items: space-between;
+        border: 1px solid black;
+        }
+    
+        @mixin flexCenter(){
+            display: flex;
+            justify-content: center;
+            align-items:  center;
+            border: 1px solid black;
+            }
+            @mixin flexSpaceAround(){
+                display: flex;
+                justify-content: space-around;
+                align-items:  center;
+                border: 1px solid black;
+                }
+
+                @mixin flexSpaceEvenly(){
+                    display: flex;
+                    justify-content: space-around;
+                    align-items:  center;
+                    border: 1px solid black;
+                    }
+            
+//  variables
+ $primary-background-color: #000;
+ $primary-color: #ff0000b4;
+ $secondary-color: #fff;
+ $secondary-background-color: #9b9b9b;
+ $bold-font-weight: 900;
+ $primary-letter-spacing: 1px;
+ $primary-background-color: #000;
+ $primary-color: #ff0000b4;
+ $secondary-color: #fff;
+ $primary-button-color: #91fc05c0;
+ $primary-font-family: Dosis;
+ @mixin flexSpaceBetween(){
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    border: 1px solid black;
+    }
+
+    div.top-most-header{
+        width: 100%;
+        position: fixed;
+        @include flexSpaceBetween();
+        background-color: $primary-background-color;
+        color: $secondary-color;
+        box-shadow: 1px 1px #444444b2;
+        padding: 0rem 1.5rem;
+        button.btn-donate{
+            font: 1rem 'Dosis', sans-serif;;
+            margin: 0.5rem 1rem .5rem 0rem;
+            background: $primary-button-color;
+            color:rgb(255, 255, 255);
+            border-radius: 5px;
+            padding: 0.5rem;
+            letter-spacing: 0.2ex;
+        }
+        button.btn-donate:hover{
+            transition-delay:  250ms;
+            background: $secondary-color;
+            color: $primary-background-color;
+        }
+    }
+
+    div.top-mid-header{
+         @include flexSpaceEvenly();
+       padding: 4em 0em;
+       background-color: #000;
+       color:#000;
+    //    background-color: #000;
+    //    color: #fff
+    button.top-query,
+    button.top-query:hover{
+        background-color: #ff0000;
+        padding: 0.5em;
+        letter-spacing: $primary-letter-spacing;
+    }
+
+    button.top-query a{
+       background-color: #ff0000;
+    }
+
+    section.social-medias a{
+        color: #000;
+        font-size: 1.5rem;
+        padding: 0.1em;
+    }
+    span,
+    .fa{
+        color:#fff;
+        opacity: 0.8;
+    }
+     .fa:hover{
+        color:#ff0000;
+        opacity: 1
+    }
+   }  
+
+
+   div.lower-head{ 
+     @include flexCenter();
+     font-family: $primary-font-family;
+     margin-bottom: 0rem;
+      }
+    // p{
+    //     font-size: 1rem;
+    //     color: #ff0000;
+    // }
+    footer{
+        margin-top: 3rem;
+        background-color:#0000;
+    }
+    
+    p.copyright{
+        font-family: $primary-font-family;
+        text-align: center;
+        font-size: .85rem;
+        color:$secondary-color;
+        opacity: .8;
+        
+    }
+
+      
+    

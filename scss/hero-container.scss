@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none!important;
+    text-decoration: none;
+
+    // background: #000;
+
+}
+button{
+    cursor: pointer;
+}
+img{
+    max-width: 100%;
+}
+// a{
+//     color:rgb(0, 0, 0);
+// }
+
+  //For smooth scroll behavoiur
+  html{
+    scroll-behavior: smooth;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+    //variables
+$primary-background-color: #000;
+$primary-color: #ff0000b4;
+$secondary-color: #fff;
+$secondary-background-color: #9b9b9b;
+$bold-font-weight: 900;
+$primary-letter-spacing: 1px;
+$primary-background-color: #000;
+$primary-color: #ff0000b4;
+$secondary-color: #fff;
+$primary-button-color: #91fc05c0;
+ 
+
+//   @import url('./reset.scss');
+  @mixin flexCenter(){
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid black;
+  }
+
+  div.row-deep-inner-description ul li{
+    display: inline-block;
+    transform: skewY(175deg);
+ }
+
+    div.group-hero-container{
+        margin-top: 10em;
+        padding: 0rem 1rem;
+        width: 100%;
+        background:#000;
+        color:#fff;
+        border: 5px solid rgb(255, 0, 157);
+        // font-family: Dosis;
+        div.hero-container{
+            @include flexCenter();
+            justify-content: flex-start;
+            width: 100%;
+            height: auto;
+    
+           
+        
+        div.row-container{
+            @include flexCenter();
+            justify-content: center;
+           
+            
+         
+        //  div.row-inner-single{
+        //     width: 18vw;
+        //     height: 500vh;
+        //     border: 1px solid rgb(21, 255, 0);
+        
+        div.row-inner-left{
+            width: 26vw;
+            // height: 920vh; 
+           //change this
+           border: 1px solid rgb(255, 0, 0);
+           div.row-deep-inner{
+               width: 20vw;
+            //    height: auto;
+               margin: 0 auto;
+               border: 1px solid rgb(55, 0, 255);
+           }
+         
+         div.row-deep-inner-description{
+           border: 1px solid blue;
+           font-family: Dosis;
+           width: 25vw;
+       
+           h2{
+            padding: 0.5rem 1rem;
+            letter-spacing: .35px;
+            font-size: 2rem;
+           }
+       
+
+        div.row-deep-inner-description ul li,
+            p.description{
+               padding: 0.5rem 1rem;
+               letter-spacing: .35px;
+               font-size: 1rem;
+               color:#fff;
+            //    ul li:hover{
+            //        width: 100%;
+            //    }
+           
+           }
+        
+         
+           button.read-more{
+               padding: .5rem;
+               margin: 0.5rem 1rem;  
+               border: 0px solid;
+               background-color: #ff0000;
+               outline: none;
+               border-radius: 1em;
+               color:$secondary-color;
+           }
+           button.read-more:hover{
+               background-color: $secondary-color;
+               color: $primary-background-color;
+           }
+        //    button.read-more:hover{
+        //     background-color: white;
+        //     color:#000;
+      
+        // }
+        //    button.read-more a{
+        //     color:rgb(0, 0, 0);
+        //     background-color: #ff0000;
+        //    }
+         
+        //    button.read-more a:hover{
+        //        color:#000;
+        //        background-color: white;
+        //    } } 
+    }} }}
+    div.row-inner-single{
+        height: 920vh;
+        p.inner-p{
+            color:#fff;
+        }
+       }
+         div.col-container-left 
+         figure{
+                // padding: 2rem;
+                // color: $secondary-color;
+                background-image:  url("/gifs/ringegan\ to\ sharigan.gif");
+                background-size: contain;
+                background-position:  left;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                width: 13vw;
+                border:1px solid rgb(255, 3, 150);
+                height: 920vh;
+                background-color: rgb(121, 121, 121);
+         }
+            div.row-container-right
+            figure{
+                background-image:  url("/gifs/ringegan\ to\ sharigan.gif");
+                background-size: contain;
+                background-position: top right;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                width: 13.7vw;
+                height: 920vh;
+                border:1px solid rgb(0, 153, 255);
+                background-color: rgb(121, 121, 121);
+        }
+        
+   }
+
+   @media only screen and (max-width: 1024px) and (min-width: 768px){
+    div.row-container-right
+    figure{
+        width: 11.5vw;
+    }
+    div.id-tablets{
+        display: none;
+    }
+     }
+
+        
+        @media only screen and (max-width: 1440px) and (min-width: 900px){
+            div.row-container-right
+            figure{
+                width: 13vw;
+            }
+            div.id-laptop{
+                display: none;
+            }
+
+            // div.row-dee-inner figure{
+            //     height: 40vh;
+            //     border: 5px solid white;
+            // }
+        }
+        
+ 
+
+        @media only screen and(max-width: 1680px) and (min-width: 1050px){
+          
+            div.row-container-right
+            figure{
+                width: 13vw;
+            }
+            div.id-desktop{
+                display: none;
+            }
+        }
+      
+
+
+
+

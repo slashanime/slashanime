@@ -1,0 +1,591 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none!important;
+    text-decoration: none;
+  
+
+}
+
+a{
+    color:#fff;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+//For smooth scroll behavoiur
+html{
+  scroll-behavior: smooth;
+}
+
+button{
+  border: 0px solid;
+  cursor: pointer;
+}
+img{
+    max-width: 100%;
+}
+div.hero-container{
+    display: flex;
+    max-width: 100%;
+    // border: 5px solid rgb(2, 255, 192);
+    /* flex-wrap: wrap;
+    flex-direction: row; */
+    margin-top: 10rem;
+    background: #000;
+}
+div.hero-left{
+    background-image: url("/images/naruto\ and\ sasuke.jpg"); 
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    background-attachment: fixed;
+    width: 50%;
+    
+    // background-color: rgb(142, 185, 248);  
+}
+div.right{
+    background-image: url("/images/742702.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    background-attachment: fixed;
+    width: 50%;
+    // background-color: rgb(119, 169, 245);
+    
+}
+
+
+section.figure1,
+section.figure2,
+section.figure3,
+section.figure4,
+section.figure5,
+section.figure6,
+section.figure7,
+section.figure8,
+section.figure9,
+section.figure10,
+section.figure11,
+section.figure12,
+section.figure13,
+section.figure14,
+section.figure15{
+  border: 1px solid rgba(202, 202, 202, 0.192);
+    // border: 1px solid rgb(255, 255, 255);
+    // box-shadow: 3px 3px 5px 6px rgb(48, 190, 233);;
+    height: 400px;
+    width: 300px;
+    // width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+section.figure1{ background-image: url("/anime posters/The_Promised_Neverland\,_Volume_1.jpg"); }
+
+section.figure2{ background-image: url("/anime posters/jujustu\ kaisen.jpg"); }
+
+section.figure3{ background-image: url("/anime posters/black-clover.jpg"); }
+
+section.figure4{ background-image: url("/anime posters/boruto\ naruto\ next\ generations.jpg"); }
+
+section.figure5{ background-image: url("/anime posters/castlevania.jpg"); }
+
+section.figure6{ background-image: url("/anime posters/steins\ gate.jpg"); }
+
+section.figure7{ background-image: url("/anime posters/mob\ pyscho.jpg"); }
+
+section.figure8{ background-image: url("/anime posters/7\ deadly\ sins.jpg"); }
+
+section.figure9{ background-image: url("/anime posters/Kingdom-3.jpg"); }
+
+section.figure10{ background-image: url("/anime posters/Bleachanime.png"); }
+
+section.figure11{ background-image: url("/anime posters/dargon\ ball.png"); }
+
+section.figure12{ background-image: url("/anime posters/death\ note.jpg"); }
+
+section.figure13{ background-image: url("/anime posters/fairy\ tail.png"); }
+
+section.figure14{ background-image: url("/anime posters/hunter\ x\ hunter.png"); }
+
+section.figure15{ background-image: url("/anime posters/kimi\ no\ wa.jpg"); }
+
+p.description{
+    font-size: 1rem;
+    color:#fff;
+}
+h2{
+    font-family: sans-serif;
+}
+
+ section.brief{
+    height: 400px;
+    //width: 350px;
+    width: 350px;
+    border: 1px solid rgba(202, 202, 202, 0.192);
+    padding: .85rem;
+    color: #fff;
+    // opacity: 0.9;
+    // box-shadow: 3px 3px 5px 6px rgb(48, 190, 233);
+
+    ul li{ 
+       display: inline-block;
+       transform: skewX(170deg);
+       font-size: 1.1rem;
+       padding: 0.1em;
+       margin: 0rem;
+   ul li a{
+       color: rgb(24, 23, 23);
+      
+   }
+}
+ 
+    button.read-more{
+        padding: .5rem;
+        margin: 0.7rem .1rem;  
+        border: 0px solid;
+        background-color: #000000;
+        outline: none;
+        // border-radius: 1em;
+        color:#ff0000;
+        font-family: Dosis, 'sans-serif';
+        border: 2px solid #ff0000;
+        text-transform: uppercase;
+        letter-spacing: .5px;
+    }
+    button.read-more:hover{
+        transition-delay:  300ms;
+        background-color: rgb(255, 255, 255);
+        color:rgb(0, 0, 0);
+        border: 2px solid #Fff;
+    }
+    button.read-more-watch{
+        padding: .5rem;
+        margin: 0.7rem .1rem;  
+        border: 0px solid;
+        background-color: #000000;
+        outline: none;
+        // border-radius: 1em;
+        color:#fff;
+        font-family: Dosis, 'sans-serif';
+        border: 2px solid #91fc05c0;
+        text-transform: uppercase;
+        letter-spacing: .5px;
+    }
+
+    button.read-more-watch:hover{
+        transition-delay:  300ms;
+        background-color: rgb(255, 255, 255);
+        color:rgb(0, 0, 0);
+        border: 2px solid #Fff;
+    }
+}
+
+
+@media only screen and (max-width: 680px) {
+  div.hero-container{
+   justify-content: flex-start;
+  }
+  div.hero-left,
+  div.right,
+  div.single,
+  section.brief{
+      display: none;
+  }
+  div.single{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) and (min-width: 400px){
+section.figure1,
+section.figure2,
+section.figure3,
+section.figure4,
+section.figure5,
+section.figure6,
+section.figure7,
+section.figure8,
+section.figure9,
+section.figure10,
+section.figure11,
+section.figure12,
+section.figure13,
+section.figure14,
+section.figure15{
+  margin-left: 4rem;
+}
+}
+@media only screen and (max-width: 600px) and (min-width: 500px){
+  section.figure1,
+  section.figure2,
+  section.figure3,
+  section.figure4,
+  section.figure5,
+  section.figure6,
+  section.figure7,
+  section.figure8,
+  section.figure9,
+  section.figure10,
+  section.figure11,
+  section.figure12,
+  section.figure13,
+  section.figure14,
+  section.figure15{
+    margin-left: 8.5rem;
+  }
+  }
+
+  @media only screen and (max-width: 640px) and (min-width: 360px){
+    section.figure1,
+    section.figure2,
+    section.figure3,
+    section.figure4,
+    section.figure5,
+    section.figure6,
+    section.figure7,
+    section.figure8,
+    section.figure9,
+    section.figure10,
+    section.figure11,
+    section.figure12,
+    section.figure13,
+    section.figure14,
+    section.figure15{
+      margin-left: 2rem;
+    }
+    }
+
+    @media only screen and (max-width: 761px) and (min-width: 411px){
+      section.figure1,
+      section.figure2,
+      section.figure3,
+      section.figure4,
+      section.figure5,
+      section.figure6,
+      section.figure7,
+      section.figure8,
+      section.figure9,
+      section.figure10,
+      section.figure11,
+      section.figure12,
+      section.figure13,
+      section.figure14,
+      section.figure15{
+        margin-left: 4rem;
+      }
+      }
+
+div.single{
+    width: 350px;
+    border: 1px solid rgba(121, 121, 121, 0.377);
+    color: #fff;
+ div.inner-single,
+ div.inner-single2,
+ div.inner-single3,
+ div.inner-single4,
+ div.inner-single5,
+ div.inner-single6,
+ div.inner-single7,
+ div.inner-single8,
+ div.inner-single9,
+ div.inner-single10,
+ div.inner-single11,
+ div.inner-single12,
+ div.inner-single13,
+ div.inner-single14,
+ div.inner-single15,
+ div.inner-single16,
+ div.inner-single17,
+ div.inner-single18,
+ div.inner-single19,
+ div.inner-single20,
+ div.inner-single21,
+ div.inner-single22,
+ div.inner-single23,
+ div.inner-single24,
+ div.inner-single25,
+ div.inner-single26,
+ div.inner-single27,
+ div.inner-single28,
+  div.inner-single29{
+    border: 1px solid rgba(148, 147, 147, 0.253);
+    width: 300px;
+    height: 200px;
+    display: flex;
+   
+
+  section.inner-single-video-box,
+  section.inner-single-video-box2,
+  section.inner-single-video-box3,
+  section.inner-single-video-box4,
+  section.inner-single-video-box5,
+  section.inner-single-video-box6,
+  section.inner-single-video-box7,
+  section.inner-single-video-box8,
+  section.inner-single-video-box9,
+  section.inner-single-video-box10,
+  section.inner-single-video-box11,
+  section.inner-single-video-box12,
+  section.inner-single-video-box13,
+  section.inner-single-video-box14,
+  section.inner-single-video-box15,
+  section.inner-single-video-box16,
+  section.inner-single-video-box17,
+  section.inner-single-video-box18,
+  section.inner-single-video-box19,
+  section.inner-single-video-box20,
+  section.inner-single-video-box21,
+  section.inner-single-video-box22,
+  section.inner-single-video-box23,
+  section.inner-single-video-box24,
+  section.inner-single-video-box25,
+  section.inner-single-video-box26,
+  section.inner-single-video-box27,
+  section.inner-single-video-box28,
+  section.inner-single-video-box29{
+    border: px solid red;
+    width: 13vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Dosis;
+    overflow: hidden;
+  }
+
+
+  section.inner-single-video-box{
+  background-image: url("/anime posters/kakegurvvi.png");}
+
+  section.inner-single-video-box2{
+    background-image: url("/anime posters/Dororoo.jpg");
+  }
+
+  section.inner-single-video-box3{
+    background-image: url("/anime posters/The\ millionarie\ Detective.jpg");
+  }
+
+   section.inner-single-video-box4{
+    background-image: url("/anime posters/tokyo\ ghouls2.jpg");
+  }
+
+  section.inner-single-video-box5{
+    background-image: url("/anime posters/re\ zero.png");
+
+  } 
+
+  section.inner-single-video-box6{
+    background-image: url("/anime posters/my\ hero\ academia.jpg");
+
+  } 
+
+  section.inner-single-video-box7{
+    background-image: url("/anime posters/berserk.jpg");
+
+  } 
+
+  section.inner-single-video-box8{
+    background-image: url("/anime posters/ghost\ in\ shell\ stand\ alone.jpg");
+
+  } 
+
+  section.inner-single-video-box9{
+    background-image: url("/anime posters/pacific-rim-the-black-chinese-movie-poster.jpg");
+
+  } 
+
+  section.inner-single-video-box10{
+    background-image: url("/anime posters/clannad-after-story.jpg");
+
+  } 
+
+  section.inner-single-video-box11{
+    background-image: url("/anime posters/I am standing.jpg");
+
+  } 
+
+  section.inner-single-video-box12{
+    background-image: url("/anime posters/monster.jpg");
+
+  } 
+
+  section.inner-single-video-box13{
+    background-image: url("/anime posters/Izetta_The_Last_Witch_TV_Series.jpg");
+
+  } 
+  section.inner-single-video-box14{
+    background-image: url("/anime posters/Dota_Dragons_Blood_poster.jpg");
+
+  } 
+
+  section.inner-single-video-box15{
+    background-image: url("/anime posters/Fruits_Basket_2019_Poster_3.jpg");
+
+  } 
+
+  section.inner-single-video-box16{
+    background-image: url("/anime posters/violet\ evergarden.jpg");
+  } 
+
+  section.inner-single-video-box17{
+    background-image: url("/anime posters/slam\ dunkk.jpg");
+
+  } 
+
+  section.inner-single-video-box18{
+    background-image: url("/anime posters/Vinland\ Saga.jpg");
+
+  } 
+
+  section.inner-single-video-box19{
+    background-image: url("/anime posters/The\ Classroom\ of\ elite.jpg");
+
+  } 
+
+  section.inner-single-video-box20{
+    background-image: url("/anime posters/zombieland\ saga.png");
+
+  } 
+
+  
+  section.inner-single-video-box21{
+    background-image: url("/anime posters/Sirius_the_Jaeger_TV_Series-.jpg");
+
+  } 
+
+  
+  section.inner-single-video-box22{
+    background-image: url("/anime posters/Great-Pretender-Season-2-Case-4-Anime-Key-Visua-Netflix.jpg");
+
+  } 
+
+  section.inner-single-video-box23{
+    background-image: url("/anime posters/Food\ Wars-Shokugeki_no_Souma_Volume_1.jpg");
+
+  } 
+
+  
+  section.inner-single-video-box24{
+    background-image: url("/anime posters/Iroduku_Sekai_no_Ashita_kara_promotional_image.jpg");
+
+  } 
+
+  section.inner-single-video-box24{
+    background-image: url("/anime posters/irozuku-sekai-no-ashita-kara-lyrics.jpg");
+
+  } 
+
+  section.inner-single-video-box25{
+    background-image: url("/anime posters/Blood-of-Zeus.jpg");
+
+  } 
+
+  section.inner-single-video-box26{
+    background-image: url("/anime posters/Vampire\ Knight.jpg");
+
+  } 
+
+  section.inner-single-video-box27{
+    background-image: url("/anime posters/Relife.jpg");
+
+  } 
+
+  section.inner-single-video-box28{
+    background-image: url("/anime posters/B_the_Beginning_Main_Visual.jpg");
+
+  } 
+  section.inner-single-video-box29{
+    background-image: url("/anime posters/saga-of-tanya-the-evil.jpg");
+  }
+ 
+
+  section.inner-single-des{
+      width: 13vw;
+
+      article a:hover{
+        color:#ff0000;
+        transition-delay: 150ms;
+       
+      }
+     
+
+    article button.watch-now{
+        display: block;
+        color:white;
+        background-color:#000;
+        border: 1px solid #91fc05c0;
+        padding: .3rem;
+        margin: .4rem .6rem;
+    
+       
+    }
+        button.watch-now:hover{
+            background-color: #91fc05c0;
+            color:#Fff;
+          
+        }
+       
+    
+     aside{
+        letter-spacing: .5px;
+     }
+      h3{
+          font-family: sans-serif;
+          padding: .7rem;
+        
+      }
+      p{
+          padding: .2rem;
+      }  
+}
+}
+
+}
+
+
+
+@media only screen and (max-width: 1440px) and (min-width: 900px) {
+section.figure1,
+section.figure2,
+section.figure3,
+section.figure4,
+section.figure5,
+section.figure6,
+section.figure7,
+section.figure8,
+section.figure9,
+section.figure10,
+section.figure11,
+section.figure12,
+section.figure13,
+section.figure14,
+section.figure15{
+    // background-size: cover;
+    width: 200px; 
+    height: 450px;
+}
+    section.brief{
+        width: 250px;
+        height: 450px;
+        
+        section.brief p.description{
+          font-size: .8rem;
+
+        }
+}
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  div.single{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:768px) and (min-width: 600px) {
+  div.single{
+    display: none;
+  }
+}

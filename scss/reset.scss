@@ -1,0 +1,28 @@
+
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      outline: none!important;
+      text-decoration: none;
+      // background: #000;
+
+  }
+  
+  //For smooth scroll behavoiur
+  html{
+    scroll-behavior: smooth;
+  }
+
+  button{
+    border: 0px solid;
+    cursor: pointer;
+  }
+
+  nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    // color: $secondary-color;
+  }
+  // }
+

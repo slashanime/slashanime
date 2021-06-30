@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap");*{padding:0;margin:0;-webkit-box-sizing:border-box;box-sizing:border-box;outline:none !important;text-decoration:none}html{scroll-behavior:smooth}button{border:0px solid;cursor:pointer}nav ul li a{list-style:none;text-decoration:none}div.anime-home-wrapper{border:px solid #09ff00;display:-webkit-box;display:-ms-flexbox;display:flex;margin-top:5rem;background-color:#fff}div.anime-home-wrapper div.anime-home-left,div.anime-home-wrapper div.anime-home-mid,div.anime-home-wrapper div.anime-home-right{width:100%;border:px solid red}div.anime-home-wrapper section.inner-anime-top-left,div.anime-home-wrapper section.inner-anime-down-left-poster,div.anime-home-wrapper section.inner-anime-top-mid-poster,div.anime-home-wrapper section.inner-anime-down-mid-poster,div.anime-home-wrapper section.inner-anime-down-right-poster,div.anime-home-wrapper section.inner-anime-down-right{border-radius:15px;background-repeat:no-repeat;background-position:center;background-size:cover}div.anime-home-wrapper section.inner-anime-top-left{border-radius:20px;height:40vh;width:15vw;background-image:url("/gifs/original.gif")}@media only screen and (max-width: 700px){div.anime-home-wrapper section.inner-anime-top-left{width:90vw;height:20vh;border-radius:5px;margin:0 auto}}div.anime-home-wrapper section.inner-anime-down-left,div.anime-home-wrapper section.inner-anime-top-mid,div.anime-home-wrapper section.inner-anime-down-mid,div.anime-home-wrapper section.inner-anime-top-right{display:-webkit-box;display:-ms-flexbox;display:flex;border:px solid #04f;width:100%}div.anime-home-wrapper section.inner-anime-down-left-poster{border-radius:10px;height:35vh;width:35vw;background-image:url("/gifs/saitama & genos.gif")}@media only screen and (max-width: 700px){div.anime-home-wrapper section.inner-anime-down-left-poster{width:80vw;height:25vh}}div.anime-home-wrapper section.inner-anime-down-left-clip{background-color:#4b48ff;height:15vh;width:50%;-webkit-clip-path:circle(41.6% at 19% 100%);clip-path:circle(41.6% at 19% 100%)}div.anime-home-wrapper section.inner-anime-top-mid{display:-webkit-box;display:-ms-flexbox;display:flex;width:100%}div.anime-home-wrapper section.inner-anime-top-mid-poster{height:25vh;width:25vw;background-image:url("/gifs/eren mikas.gif")}@media only screen and (max-width: 700px){div.anime-home-wrapper section.inner-anime-top-mid-poster{width:100vw;margin:0 auto}}div.anime-home-wrapper section.inner-animme-top-mid-clip{background-color:#ff4848;height:15vh;width:50%;-webkit-clip-path:circle(30.7% at 52% 0);clip-path:circle(30.7% at 52% 0)}div.anime-home-wrapper section.article-home{padding:1rem;border:px solid red;letter-spacing:2px}div.anime-home-wrapper section.article-home h3{text-align:center;font-size:3rem;font-family:Dosis;padding:.3rem;text-shadow:2px 3px #cecece}div.anime-home-wrapper section.article-home button.explore{display:block;margin:0 auto;font-size:1.2rem;padding:0.5rem 1rem;text-align:center;background-color:black;color:white;-webkit-box-shadow:2px 2px 2px 2px #a7a4a4;box-shadow:2px 2px 2px 2px #a7a4a4}div.anime-home-wrapper section.article-home button.explore:hover{background-color:#037938}div.anime-home-wrapper section.inner-anime-down-mid-clippy{background-color:#b60365;height:28vh;width:60%;-webkit-clip-path:circle(22.7% at 100% 43%);clip-path:circle(22.7% at 100% 43%);margin-right:1.5rem}div.anime-home-wrapper section.inner-anime-down-mid-poster{height:30vh;width:10vw;background-image:url("/gifs/bleach-funny.gif")}@media only screen and (max-width: 700px){div.anime-home-wrapper section.inner-anime-down-mid-poster{width:80vw}}div.anime-home-wrapper section.inner-anime-top-right-clip{background-color:chartreuse;height:35vh;width:22%;-webkit-clip-path:circle(33.9% at 9% 10%);clip-path:circle(33.9% at 9% 10%)}div.anime-home-wrapper section.inner-anime-down-right-poster{margin-top:2rem;margin-left:-3rem;height:30vh;width:24vw;background-image:url("/gifs/zoro $ luffy.gif")}@media only screen and (max-width: 700px){div.anime-home-wrapper section.inner-anime-down-right-poster{width:80vw;height:22vh}}div.anime-home-wrapper section.inner-anime-down-right{border:px solid #04f;height:30vh;width:24vw;background-image:url("/images/Itachi-mangekyou-sharingan-by-Triton-Demius-on-DeviantArt.gif")}@media only screen and (max-width: 700px){div.anime-home-wrapper section.inner-anime-down-right{width:80vw;height:20vh}}@media only screen and (max-width: 700px){div.anime-home-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}}
+/*# sourceMappingURL=anime-home.css.map */media only screen and (max-width: 700px) {
+  div.anime-home-wrapper section.inner-anime-down-right-poster {
+    width: 80vw;
+    height: 22vh;
+  }
+}
+
+div.anime-home-wrapper section.inner-anime-down-right {
+  border: px solid #0044ff;
+  height: 30vh;
+  width: 24vw;
+  background-image: url("/images/Itachi-mangekyou-sharingan-by-Triton-Demius-on-DeviantArt.gif");
+}
+
+@media only screen and (max-width: 700px) {
+  div.anime-home-wrapper section.inner-anime-down-right {
+    width: 80vw;
+    height: 20vh;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  div.anime-home-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=anime-home.css.map */

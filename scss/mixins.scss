@@ -1,0 +1,28 @@
+// Flex Mixins only
+@mixin flexCenter(){
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    border: 1px solid black;
+    }
+@mixin flexSpaceBetween(){
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    border: 1px solid black;
+    }
+  
+   
+        @mixin flexSpaceAround(){
+            display: flex;
+            justify-content: space-around;
+            align-items:  center;
+            border: 1px solid black;
+            }
+  
+            @mixin flexSpaceEvenly(){
+                display: flex;
+                justify-content: space-around;
+                align-items:  center;
+                border: 1px solid black;
+                }

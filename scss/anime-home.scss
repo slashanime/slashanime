@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none!important;
+    text-decoration: none;
+    // background: #000;
+
+}
+
+//For smooth scroll behavoiur
+html{
+  scroll-behavior: smooth;
+}
+
+button{
+  border: 0px solid;
+  cursor: pointer;
+}
+
+nav ul li a{
+  list-style: none;
+  text-decoration: none;
+  // color: $secondary-color;
+}
+// }
+div.anime-home-wrapper{
+    border: px solid rgb(9, 255, 0);
+    display: flex;
+    // flex-wrap: wrap;
+    margin-top: 5rem;
+   background-color: #fff;
+    
+    div.anime-home-left,
+    div.anime-home-mid,
+    div.anime-home-right{
+        width: 100%;
+        border: px solid red;
+    }
+
+    // div.inner-anime-home,
+    section.inner-anime-top-left,
+    section.inner-anime-down-left-poster,
+    section.inner-anime-top-mid-poster,
+    section.inner-anime-down-mid-poster,
+    section.inner-anime-down-right-poster,
+    section.inner-anime-down-right{
+        // border: 1px solid red;
+        border-radius: 15px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+        section.inner-anime-top-left{
+        border-radius: 20px;
+        height: 40vh;
+        width: 15vw;
+        background-image: url("/gifs/original.gif");
+    }
+
+    @media only screen and (max-width: 700px){
+        section.inner-anime-top-left{
+            width: 90vw;
+            height: 20vh;
+            border-radius: 5px;
+            margin: 0 auto;
+        }
+    }
+
+    section.inner-anime-down-left,
+    section.inner-anime-top-mid,
+    section.inner-anime-down-mid,
+    section.inner-anime-top-right{
+        display: flex;
+        border: px solid rgb(0, 68, 255);
+        width: 100%;
+    }
+        section.inner-anime-down-left-poster{
+        border-radius: 10px;
+        // border: 1px solid red
+        height: 35vh;
+        width: 35vw;
+        background-image: url("/gifs/saitama\ &\ genos.gif");
+    }
+    @media only screen and (max-width: 700px){
+        section.inner-anime-down-left-poster{
+            width: 80vw;
+            height: 25vh;
+        }
+    }
+
+    section.inner-anime-down-left-clip{
+        background-color: rgb(75, 72, 255);
+        height: 15vh;
+        width: 50%;
+        clip-path: circle(41.6% at 19% 100%);
+    }
+  
+
+
+    section.inner-anime-top-mid{
+        display: flex;
+        // justify-content: center;
+        width: 100%;
+     }
+
+        section.inner-anime-top-mid-poster{
+        // display: block;
+        // margin: 0 auto;
+        height: 25vh;
+        width: 25vw;
+        background-image: url("/gifs/eren\ mikas.gif");
+    }
+
+    @media only screen and (max-width: 700px){
+        section.inner-anime-top-mid-poster{
+            width: 100vw;
+            margin: 0 auto;
+        }
+    }
+
+    section.inner-animme-top-mid-clip{
+        background-color: rgb(255, 72, 72);
+        height: 15vh;
+        width: 50%;
+        clip-path: circle(30.7% at 52% 0);
+    }
+  
+   
+    section.article-home{
+         padding: 1rem;
+         border: px solid red;
+         letter-spacing: 2px;
+        h3{
+            text-align: center;
+            font-size: 3rem;
+            font-family: Dosis;
+            padding: .3rem;
+            text-shadow: 2px 3px rgb(206, 206, 206);  
+        }
+        
+
+        button.explore{
+            display: block;
+            margin: 0 auto;
+            font-size: 1.2rem;
+            padding: 0.5rem 1rem;
+            text-align: center;
+            background-color: black;
+            color:white;
+            box-shadow: 2px 2px 2px 2px rgb(167, 164, 164);
+            // width: 50%;
+
+        }  
+
+        button.explore:hover{
+            background-color: rgb(3, 121, 56);
+            // border: 1px solid red;
+        }
+      }  
+      
+      section.inner-anime-down-mid-clippy{
+        background-color: rgb(182, 3, 101);
+        height: 28vh;
+        width: 60%;
+        clip-path: circle(22.7% at 100% 43%);
+        margin-right: 1.5rem;
+      }
+
+      section.inner-anime-down-mid-poster{
+        // margin-top: 2rem;
+        height: 30vh;
+        width: 10vw;
+        background-image: url("/gifs/bleach-funny.gif");
+        }
+
+        @media only screen and (max-width: 700px){
+            section.inner-anime-down-mid-poster {
+                width: 80vw;
+            }
+        }
+
+        section.inner-anime-top-right-clip{
+            background-color: chartreuse;
+            height: 35vh;
+            width: 22%;
+            clip-path: circle(33.9% at 9% 10%);
+            // margin-right: -2rem;
+        }
+
+        section.inner-anime-down-right-poster{
+         margin-top: 2rem;
+         margin-left: -3rem;
+        height: 30vh;
+        width: 24vw;
+        background-image: url("/gifs/zoro\ $\ luffy.gif");
+        }
+
+        @media only screen and (max-width: 700px){
+            section.inner-anime-down-right-poster{
+                width: 80vw;
+                height: 22vh;
+            }
+        }
+          
+     section.inner-anime-down-right{
+        border: px solid rgb(0, 68, 255);
+        height: 30vh;
+        width: 24vw;
+        background-image: url("/images/Itachi-mangekyou-sharingan-by-Triton-Demius-on-DeviantArt.gif");
+    }
+
+    @media only screen and (max-width: 700px){
+        section.inner-anime-down-right{
+            width: 80vw;
+            height: 20vh;
+        }
+    }
+}
+
+    
+@media only screen and (max-width: 700px){
+    div.anime-home-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+}
+}
+
